@@ -3,6 +3,9 @@
 使用github actions 定时执行
 @author : stark
 """
+
+- cron: '0 0 * * *'
+
 import requests,os
 from sys import argv
 
